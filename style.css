@@ -1,0 +1,47 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #EAE7DC;
+    }
+
+    .main-header {
+        text-align: center;
+        padding: 50px;
+        font-size: 80px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #E85A4F;
+        font-weight: 100;
+    }
+
+    li,
+    a {
+        border-radius: 30px; /* Rounds the border */ 
+    }
+
+    li {
+        font-family: Verdana, Tahoma, sans-serif;
+        display: inline-block;
+        margin: 10px;
+        width: 360px;
+        height: 75px;
+        border: #8E8D8A solid;
+        background: #D8C3A5;
+    }
+    
+    ul {
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        font-size: 14px;
+        display: block;
+        text-align: center;
+        padding: 27px;
+    }
